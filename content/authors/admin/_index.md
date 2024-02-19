@@ -47,7 +47,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'aristeidis.sotiras@wustl.edu'
+    link: 'mailto:aristeidis.sotiras@wustl.edu'
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/ArisSotiras
