@@ -1,41 +1,44 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Aristeidis Sotiras
 
 # Full Name (for SEO)
-first_name: Nelson
-last_name: Bighetti
+first_name: Aristeidis
+last_name: Sotiras
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Assistant Professor of Radiology
 
 # Organizations/Affiliations
 organizations:
-  - name: Stanford University
+  - name: Washington University in St. Louis
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: I am an Assistant Professor at the [Department of Radiology](https://www.mir.wustl.edu/), [Washington University in St. Louis](https://wustl.edu/), affiliated with the [Informatics, Data Science & Biostatistics](https://i2db.wustl.edu/). My research is in the area of medical image analysis and machine learning, with applications to brain development and aging.
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Image Registration
+  - Image Segmentation
+  - Machine Learning
+  - Deep Learning
+  - Computational Anatomy
+
 
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: PhD in Applied Mathematics
+      institution: Ecole Centrale Paris, France
+      year: 2011
+    - course: MSc in Mathematics, Vision and Machine Learning
+      institution: Ecole Polytechnique - Ecole Normale Superieur de Cachan, France
+      year: 2007
+    - course: BSc in Electrical and Computer Engineering
+      institution: National Technical University of Athens, Greece
+      year: 2006
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -44,16 +47,16 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:test@example.org'
+    link: 'aristeidis.sotiras@wustl.edu'
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: https://twitter.com/ArisSotiras
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com/citations?user=MsNwZ-IAAAAJ&hl=en
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/asotiras
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -69,9 +72,13 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Researchers
+  - Faculty
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am an Assistant Professor at the [Department of Radiology](https://www.mir.wustl.edu/), [Washington University in St. Louis](https://wustl.edu/), affiliated with the [Informatics, Data Science & Biostatistics](https://i2db.wustl.edu/). My research is in the area of medical image analysis and machine learning, with applications to brain development and aging. I focus on developing novel computational methods to extract information from imaging data and delineate patterns in large heterogeneous data sets, towards improving patient-specific diagnosis and advancing our understanding of brain structure and function in health and disease.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Before joining WashU, I was a Research Associate at the Section of Biomedical Image Analysis, University of Pennsylvania, working with [Prof. Christos Davatzikos](https://www.med.upenn.edu/apps/faculty/index.php/g334/p32990) on unsupervised and semi-supervised machine learning techniques to analyze high-dimensional heterogeneous neuroimaging data.
+
+I did my PhD in the Center of Visual Computing at Ecole Centrale Paris, under the supervision of [Prof. Nikos Paragios](https://scholar.google.com/citations?user=7edhlaQAAAAJ&hl=en). There, I developed novel deformable image registration methods based on discrete optimization and probabilistic graphical models.
+
+Prior to that, I obtained my Bachelor’s degree from the School of Electrical and Computer Engineering of the National Technical University of Athens (ECE-NTUA).
