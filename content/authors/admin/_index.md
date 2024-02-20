@@ -74,7 +74,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Faculty
+  - Nothing
 ---
 
 I am an Assistant Professor at the [Department of Radiology](https://www.mir.wustl.edu/), [Washington University in St. Louis](https://wustl.edu/), affiliated with the [Informatics, Data Science & Biostatistics](https://i2db.wustl.edu/). My research is in the area of medical image analysis and machine learning, with applications to brain development and aging. I focus on developing novel computational methods to extract information from imaging data and delineate patterns in large heterogeneous data sets, towards improving patient-specific diagnosis and advancing our understanding of brain structure and function in health and disease.
