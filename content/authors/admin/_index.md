@@ -10,7 +10,9 @@ last_name: Sotiras
 superuser: true
 
 # Role/position
-role: Assistant Professor of Radiology
+role: Assistant Professor
+      Department of Radiology
+      Institute for Informatics, Data Science & Biostatistics
 
 # Organizations/Affiliations
 organizations:
