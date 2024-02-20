@@ -36,7 +36,7 @@ education:
       institution: Washington University in St Louis
       year: 2027 (expected)
     - course: B.E. in Biomedical Engineering
-      institution: Washington University in St Louis
+      institution: Vanderbilt University
       year: 2019
 
 # Social/Academic Networking
