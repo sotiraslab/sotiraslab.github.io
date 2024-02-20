@@ -5,7 +5,7 @@ authors:
 - Soumyendu Sekhar Ghosh
 - Rajat Dhar
 - Daniel S. Marcus
-- Aristeidis Sotiras
+- admin
 date: '2023-01-01'
 publishDate: '2024-02-20T02:07:01.002160Z'
 publication_types:
