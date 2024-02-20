@@ -8,6 +8,6 @@ authors:
 date: '2021-01-01'
 publishDate: '2024-02-20T02:07:01.008196Z'
 publication_types:
-- article-journal
-publication: '*arXiv preprint arXiv:2110.04903*'
+- paper-conference
+publication: '*Medical Imaging 2023: Computer-Aided Diagnosis.*'
 ---
