@@ -1,26 +1,15 @@
 ---
-title: Join Us
-date: 2024-02-18
+title: Contact
+date: 2022-10-24
 
 type: landing
 
 sections:
   - block: contact
     content:
-      title: Join Us
-      text: |
-        
-        <br>
-        Prospective Students
-        
-        * **PhD students**: Thank you for your interest in joining our group! Please directly apply to the CSE department. We will review each application and get back to you if there is a fit.
-        
-        * **Masters/Undergraduates/Visitors**: Thank you for your interest in participating in our research. To apply for a research position, please complete this Google form. We will be in touch if there is a match.
-
-        Contact Info
-        * **Lab Location**: <Add lab location?
-        * **Email**: aristeidis.sotiras@wustl.edu
-
+      title: Contact
+      text: |-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.
       email: test@example.org
       phone: 888 888 88 88
       address:
@@ -57,9 +46,6 @@ sections:
           captcha: false
     design:
       columns: '1'
-
-
-
 
   - block: markdown
     content:
