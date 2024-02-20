@@ -4,7 +4,7 @@ title: Normative Modeling using Multimodal Variational Autoencoders to Identify 
 authors:
 - Sayantan Kumar
 - Philip Payne
-- Aristeidis Sotiras
+- admin
 date: '2021-01-01'
 publishDate: '2024-02-20T02:07:01.008196Z'
 publication_types:
