@@ -56,7 +56,7 @@ sections:
       columns: '1'
       background:
         image: 
-          filename: contact.jpg
+          filename: spie_photo.jpg
           filters:
             brightness: 1
           parallax: false
