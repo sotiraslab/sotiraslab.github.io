@@ -8,9 +8,9 @@ authors:
 - Guray Erus
 - Joan L. Luby
 - Lars T. Westlye
-- admin
+- Christos Davatzikos
 - Deanna M. Barch
-- Aristeidis Sotiras
+- admin
 date: '2023-01-01'
 publishDate: '2024-02-20T02:07:01.032319Z'
 publication_types:
