@@ -6,7 +6,7 @@ authors:
 - Satrajit Chakrabarty
 - Phuc Nguyen
 - Soumyendu Sekhar Ghosh
-- Aristeidis Sotiras
+- admin
 date: '2023-01-01'
 publishDate: '2024-02-20T02:07:00.965213Z'
 publication_types:
