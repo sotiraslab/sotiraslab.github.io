@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Neuroimaging Engineer
+role: Neuroimaging Engineer in CIRC
 
 # Organizations/Affiliations
 organizations:
