@@ -8,7 +8,7 @@ authors:
 - Guray Erus
 - Joan L. Luby
 - Lars T. Westlye
-- Christos Davatzikos
+- admin
 - Deanna M. Barch
 - Aristeidis Sotiras
 date: '2023-01-01'
