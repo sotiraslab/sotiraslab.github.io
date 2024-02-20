@@ -4,7 +4,7 @@ title: Improving Normative Modeling for Multi-modal Neuroimaging Data using mixt
 authors:
 - Sayantan Kumar
 - Philip Payne
-- Aristeidis Sotiras
+- admin
 date: '2023-01-01'
 publishDate: '2024-02-20T02:07:00.983889Z'
 publication_types:
