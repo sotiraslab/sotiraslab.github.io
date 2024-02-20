@@ -68,7 +68,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Graduate Student
+  - Graduate Students
 ---
 
 Braden Yang is a PhD student in Imaging Science. His research is focused on building predictive models for longitudinal assessment of Alzheimer's Disease patients using multimodal imaging and machine learning. He is also interested in data harmonization for amyloid positron emission tomography imaging.
