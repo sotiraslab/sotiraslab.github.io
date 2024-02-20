@@ -8,14 +8,13 @@ sections:
   - block: contact
     content:
       title: Join Us
-      text: |-
+      text: |
+        
         Prospective Students
         
-        * **PhD students**:
-        Thank you for your interest in joining our group! Please directly apply to the CSE department. We will review each application and get back to you if there is a fit.
+        * **PhD students**: Thank you for your interest in joining our group! Please directly apply to the CSE department. We will review each application and get back to you if there is a fit.
         
-        * **Masters/Undergraduates/Visitors**:
-        Thank you for your interest in participating in our research. To apply for a research position, please complete this Google form. We will be in touch if there is a match.
+        * **Masters/Undergraduates/Visitors**: Thank you for your interest in participating in our research. To apply for a research position, please complete this Google form. We will be in touch if there is a match.
 
         Contact Info
         * **Lab Location**: <Add lab location?
