@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Soumyendu Sekhar Ghosh
+title: Soumyendu Ghosh
 
 # Full name (for SEO)
 first_name: Soumyendu 
