@@ -32,7 +32,7 @@ interests:
 
 education:
   courses:
-    - course: PhD in Imaging Science
+    - course: PhD in Electrical & Systems Engineering
       institution: Washington University in St. Louis
       year: 2025 (expected)
     - course: M.E. in Electrical Engineering
