@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Soumyendu "Sam" Ghosh
+title: Soumyendu Ghosh
 
 # Full name (for SEO)
 first_name: Soumyendu
