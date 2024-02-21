@@ -25,20 +25,21 @@ organizations:
 #bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-  - Machine Learning
+  - Physics Informed Machine Learning
   - Deep Learning
   - Neuroimaging
+  - Medical Imaging
 
 education:
   courses:
     - course: PhD in Imaging Science
-      institution: Washington University in University
+      institution: Washington University in St. Louis
       year: 2025 (expected)
-    - course: M.S. in Computer Science
-      institution: Washington University in University
+    - course: M.E. in Electrical Engineering
+      institution: Jadavpur University
       year: 2018
-    - course: B.Eng. in Electronic Information Engineering
-      institution: Chongqing University of Post and Technology
+    - course: B.E. in Electrical Engineering
+      institution: Jadavpur University
       year: 2014
 
 # Social/Academic Networking
