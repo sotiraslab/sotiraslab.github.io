@@ -30,17 +30,17 @@ interests:
   - Neuroimaging
   - Medical Imaging
 
-education:
-  courses:
-    - course: Ph.D. in Electrical and Systems Engineering
-      institution: Washington University in St. Louis
-      year: 2025 (expected)
-    - course: M.E. in Electrical Engineering
-      institution: Jadavpur University
-      year: 2018
-    - course: B.E. in Electrical Engineering
-      institution: Jadavpur University
-      year: 2014
+#education:
+#  courses:
+#    - course: Ph.D. in Electrical and Systems Engineering
+#      institution: Washington University in St. Louis
+#      year: 2025 (expected)
+#    - course: M.E. in Electrical Engineering
+#      institution: Jadavpur University
+#      year: 2018
+#    - course: B.E. in Electrical Engineering
+#      institution: Jadavpur University
+#      year: 2014
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
