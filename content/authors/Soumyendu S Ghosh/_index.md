@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Soumyendu "Sam" Ghosh
+title: Soumyendu Sekhar Ghosh
 
 # Full name (for SEO)
 first_name: Soumyendu
@@ -30,14 +30,17 @@ interests:
   - Neuroimaging
   - Medical Imaging
 
-#education:
-#  courses:
-#    - course: Ph.D. in Imaging Science
-#      institution: Washington University in St Louis
-#      year: 2027 (expected)
-#    - course: B.E. in Biomedical Engineering
-#      institution: Vanderbilt University
-#      year: 2019
+education:
+  courses:
+    - course: Ph.D. in Electrical and Systems Engineering
+      institution: Washington University in St. Louis
+      year: 2025 (expected)
+    - course: M.E. in Electrical Engineering
+      institution: Jadavpur University
+      year: 2018
+    - course: B.E. in Electrical Engineering
+      institution: Jadavpur University
+      year: 2014
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -71,6 +74,6 @@ user_groups:
   - Graduate Students
 ---
 
-Soumyendu “Sam” Ghosh is a PhD student at the Department of Electrical and Systems Engineering in the McKelvey School of Engineering. His current research focuses on leveraging physics informed machine learning to model tumor growth trajectories. The overarching goal of his research is to help create a predictive Digital Twin to aid clinical tumor management and decision-making. Previously, he has also worked on unsupervised anomaly detection methods for quality control of head CT scans. Sam received his bachelor’s and master’s degree, both in Electrical Engineering, from Jadavpur University, Kolkata, India. 
+Soumyendu Sekhar “Sam” Ghosh is a PhD student at the Department of Electrical and Systems Engineering in the McKelvey School of Engineering. His current research focuses on modelling brain tumor growth trajectories using physics informed machine learning. The overarching goal of his research is to help create predictive Digital Twin to aid tumor management protocols and clinical decision-making. Previously, he has also worked on unsupervised anomaly detection methods for quality control of head CT scans. Sam received his bachelor’s and master’s degree, both in Electrical Engineering, from Jadavpur University, Kolkata, India. 
 In his free time, Sam likes to watch cerebral action dramas, soothing cooking videos and standup.
 
