@@ -56,16 +56,16 @@ social:
     link: 'mailto:tom.earnest@wustl.edu'
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/earnestt1234
+    link: 'https://twitter.com/earnestt1234'
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.com/citations?user=fbWESEUAAAAJ&hl=en
+    link: 'https://scholar.google.com/citations?user=fbWESEUAAAAJ&hl=en'
   - icon: github
     icon_pack: fab
-    link: https://github.com/earnestt1234/
+    link: 'https://github.com/earnestt1234/'
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/in/earnestt1234/
+    link: 'https://www.linkedin.com/in/earnestt1234/'
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
