@@ -82,4 +82,8 @@ user_groups:
   - Graduate Students
 ---
 
-Peijie Qiu received B.Eng. Degree in Electronic Information Engineering and  Electrical Engineering from both Chongqing University of Post and Technology,  Chongqing, China, and Northern Arizona University, AZ,USA in 2018, M.S. Degree in Computer Science from Washington University in St. Louis, MO, USA, in 2021. He is  pursuing a Ph.D. in Imaging Science at Washington University in St. Louis. His  current research interest includes medical image analysis, deep learning, and computer vision. 
+Tom is a PhD candidate in [Computational & Data Sciences at WashU](https://datasciences.wustl.edu/).  His thesis work focuses on using data-driven methods to develop novel staging models for pathology related to Alzheimer's Disease.  
+
+Prior to working in the MINDS lab, Tom spent several years working as a neuroscience researcher.  He has conducted molecular, behavioral, and psychological research related to psychiatric and neurological diseases.
+
+Outside of lab, Tom enjoys making & listening to music, pursuing coding projects, playing games of all kinds, and spending time with his partner and their dogs. 
