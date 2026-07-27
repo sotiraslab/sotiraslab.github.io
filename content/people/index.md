@@ -13,7 +13,9 @@ sections:
       user_groups:
           - Faculty
           - Staff
+          - Post Doc
           - Graduate Students
+          - Summer Interns
           - Alumni
       sort_by: Params.last_name
       sort_ascending: true

@@ -32,7 +32,7 @@ interests:
 
 education:
   courses:
-    - course: Ph.D.
+    - course: Ph.D. in Imaging Science
       institution: Washington University in St. Louis
 
 # Social/Academic Networking
@@ -56,4 +56,4 @@ user_groups:
   - Alumni
 ---
 
-Jin Yang is a postdoctoral researcher at the Icahn School of Medicine at Mount Sinai. He received his Ph.D. from Washington University in St. Louis. His research focuses on deep learning and machine learning methods for medical image analysis and computer vision.
+Jin Yang is a postdoctoral researcher at the Icahn School of Medicine at Mount Sinai. He earned his Ph.D. in Imaging Science from Washington University in St. Louis. His research focuses on deep learning and machine learning methods for medical image analysis and computer vision.
