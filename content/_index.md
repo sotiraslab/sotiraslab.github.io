@@ -106,7 +106,7 @@ sections:
       text: |
         
         * **August 6, 2026**: [**Tom Earnest**](/author/tom-earnest/) Thesis Defense: "Data-driven staging of neurodegenerative pathology related to Alzheimer's Disease" - Thursday
-        * **July 2026**: New Staff! [**Sania Latif**](/author/sania-latif/) and [**Joe Deluisi**](/author/joe-deluisi/) joined the lab
+        * **July 13, 2026**: New Staff! [**Sania Latif**](/author/sania-latif/) and [**Joe Deluisi**](/author/joe-deluisi/) joined the lab
         * **July 31, 2026**: [**Braden Yang**](/author/braden-yang/) Thesis Defense: "Physics-Informed Deep Learning for Computational Image Analysis and Personalized Medicine in Neuro-Oncology"
         * **July 31, 2026**: [**Soumyendu Ghosh**](/author/sam-ghosh/) Thesis Defense: "Physics-Informed Deep Learning for Computational Image Analysis and Personalized Medicine in Neuro-Oncology"
  
