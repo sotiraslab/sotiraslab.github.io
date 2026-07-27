@@ -5,7 +5,7 @@ last_name: Cheruvu
 authors:
   - Aashish
 superuser: false
-role: Summer Intern
+role:  Summer Intern in Biomedical Informatics & Data Science
 user_groups:
   - Summer Interns
 ---

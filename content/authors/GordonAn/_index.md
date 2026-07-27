@@ -5,7 +5,7 @@ last_name: An
 authors:
   - GordonAn
 superuser: false
-role: Graduate Student
+role:  PhD student in Division of Computation & Data Science
 user_groups:
   - Graduate Students
 ---

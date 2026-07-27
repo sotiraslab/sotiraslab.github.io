@@ -5,7 +5,7 @@ last_name: Kumar
 authors:
   - SayantanKumar
 superuser: false
-role: Former Graduate Student
+role: PhD student in Computer Science and Engineering
 user_groups:
   - Alumni
 ---

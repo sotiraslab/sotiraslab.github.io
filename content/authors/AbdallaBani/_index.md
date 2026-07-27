@@ -5,7 +5,7 @@ last_name: Bani
 authors:
   - AbdallaBani
 superuser: false
-role: Graduate Student
+role: PhD student in Imaging Science
 user_groups:
   - Graduate Students
 ---
