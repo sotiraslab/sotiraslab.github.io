@@ -105,10 +105,10 @@ sections:
       subtitle:
       text: |
         
-        This section will cover the latest news of the lab, particularly accomplishments. For examples, paper acceptance, thesis proposal/quals exam, conference awards, grant acceptance. The news will be in chronological order with most recent first.
-        * **Insert date**: News 1
-        * **Insert date**: News 2
-        * **Insert date**: News 3
+        * **August 6, 2026**: [**Tom Earnest**](/author/tom-earnest/) Thesis Defense: "Data-driven staging of neurodegenerative pathology related to Alzheimer's Disease" - Thursday
+        * **July 2026**: New Staff! [**Sania**](/author/sania-latif/) and [**Joe**](/author/joe-deluisi/) joined the lab
+        * **July 31, 2026**: [**Braden Yang**](/author/braden-yang/) Thesis Defense: "Physics-Informed Deep Learning for Computational Image Analysis and Personalized Medicine in Neuro-Oncology"
+        * **July 31, 2026**: [**Soumyendu Ghosh**](/author/sam-ghosh/) Thesis Defense: "Physics-Informed Deep Learning for Computational Image Analysis and Personalized Medicine in Neuro-Oncology"
  
     
     design:
