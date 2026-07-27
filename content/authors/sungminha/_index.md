@@ -71,7 +71,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Graduate Students
+  - Alumni
 ---
 
 Sung Min Ha is a PhD candidate in Imaging Science at Washington University in St. Louis. Sung Min received his Bachelor's and Master's in Bioengineering at University of Pennsylvania. His research focuses on developing and applying machine learning methods for large scale neuroimaging analysis.

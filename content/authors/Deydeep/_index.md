@@ -67,7 +67,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Staff
+  - Alumni
 ---
 
 Deydeep Kothapalli is a Neuroimaging Engineer at the Computational Imaging Research Center (CIRC) at Washington University in St. Louis's Mallinckrodt Institute of Radiology. His work primarily involves data science and processing in neuroimaging, with a particular focus on leveraging machine learning and deep learning models to advance the understanding and diagnosis of Alzheimer's disease. Before joining CIRC, Deydeep honed his technical skills with Dr. Meredith Braskie in a role that bridged the gap between biology and analytics, showcasing his interdisciplinary expertise. Deydeep's unique blend of academic and practical experiences in biology, analytics, and computer science positions him at the forefront of innovation in neuroimaging research, where he continues to contribute to the advancement of medical science and technology.
