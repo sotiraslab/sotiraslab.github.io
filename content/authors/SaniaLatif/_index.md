@@ -5,7 +5,7 @@ last_name: Latif
 authors:
   - SaniaLatif
 superuser: false
-role: Staff
+role: Researcher
 user_groups:
   - Staff
 ---

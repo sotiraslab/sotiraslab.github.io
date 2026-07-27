@@ -5,7 +5,7 @@ last_name: Deluisi
 authors:
   - Joe
 superuser: false
-role: Staff
+role: Data Analyst
 user_groups:
   - Staff
 ---

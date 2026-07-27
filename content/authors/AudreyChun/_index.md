@@ -5,7 +5,7 @@ last_name: Chun
 authors:
   - AudreyChun
 superuser: false
-role: Former Summer Intern
+role: Summer Intern in Biomedical Informatics & Data Science
 user_groups:
   - Alumni
 ---

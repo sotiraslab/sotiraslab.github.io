@@ -1,11 +1,11 @@
 ---
 title: Shawn Fan
-first_name: Shawn
+first_name: Shuyang
 last_name: Fan
 authors:
   - ShawnFan
 superuser: false
-role: Former Summer Intern
+role:  Summer Intern in Biomedical Informatics & Data Science
 user_groups:
   - Alumni
 ---
