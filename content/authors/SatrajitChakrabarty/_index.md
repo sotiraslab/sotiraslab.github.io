@@ -5,7 +5,7 @@ last_name: Chakrabarty
 authors:
   - SatrajitChakrabarty
 superuser: false
-role: Former Graduate Student
+role: PhD student in Electrical & System
 user_groups:
   - Alumni
 ---

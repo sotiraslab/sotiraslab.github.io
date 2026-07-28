@@ -5,7 +5,7 @@ last_name: Roy
 authors:
   - SugandhaRoy
 superuser: false
-role: Former MSc Student
+role: MSc in Imaging Science
 user_groups:
   - Alumni
 ---

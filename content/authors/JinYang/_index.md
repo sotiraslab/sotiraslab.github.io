@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Postdoc in Icahn School of Medicine at Mount Sinai
+role: Postdoc in Icahn School of Medicine at Mount Sinai, PhD student in Imaging Science
 
 # Organizations/Affiliations
 organizations:

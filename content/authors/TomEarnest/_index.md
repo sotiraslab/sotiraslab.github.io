@@ -1,9 +1,9 @@
 ---
 # Display name
-title: Tom Earnest
+title: Thomas Earnest
 
 # Full name (for SEO)
-first_name: Tom
+first_name: Thomas
 last_name: Earnest
 
 # Username (this should match the folder name)

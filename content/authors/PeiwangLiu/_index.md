@@ -5,7 +5,7 @@ last_name: Liu
 authors:
   - PeiwangLiu
 superuser: false
-role: Former MSc Student
+role: MSc in Engineering Data Analytics and Statistics
 user_groups:
   - Alumni
 ---

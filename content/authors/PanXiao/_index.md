@@ -5,7 +5,7 @@ last_name: Xiao
 authors:
   - PanXiao
 superuser: false
-role: Former Graduate Student
+role: PhD student in Imaging Science
 user_groups:
   - Alumni
 ---
