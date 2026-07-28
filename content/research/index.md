@@ -141,7 +141,7 @@ sections:
           </div>
           <a class="summary-link" href="https://github.com/sotiraslab/AmyloidPETNet">
             <div class="article-style research-card-content" style="display:flex; align-items:center; justify-content:center; gap:20px;">
-              <img src="amyloidPETNet.png" alt="AmyloidPETNet project overview" loading="lazy" style="width:380px; max-width:48%; height:auto; object-fit:contain; flex-shrink:0;">
+              <img src="/research/amyloidPETNet.png" alt="AmyloidPETNet project overview" loading="lazy" style="width:380px; max-width:48%; height:auto; object-fit:contain; flex-shrink:0;">
               <div class="research-card-text" style="flex:1; min-width:0; text-align:left;">
                 <div class="section-subheading article-title mb-1 mt-3" style="margin-top:0 !important;">
                   <a href="https://github.com/sotiraslab/AmyloidPETNet">AmyloidPETNet</a>
