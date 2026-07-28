@@ -63,6 +63,8 @@ sections:
       title: ''
       subtitle: ''
       text: |
+        <h2 style="text-align:center;">Selected Projects</h2>
+
         <div class="research-feed">
 
         <article class="card-simple">
