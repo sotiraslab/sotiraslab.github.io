@@ -23,30 +23,36 @@ sections:
       text: |
         <div class="research-category-grid">
           <article class="research-category-card">
-            <div class="research-category-label">Research Area 01</div>
-            <h2>Machine Learning for Brain Health Across the Lifespan</h2>
-            <div class="research-category-body">
-              <img src="research_area_01_lifespan_brain_red.svg" alt="Machine Learning for Brain Health Across the Lifespan" loading="lazy">
-              <p>We develop clinically grounded machine learning methods that capture variation in brain aging, neurodevelopment, neurodegeneration, and psychiatric disease across diverse populations and imaging cohorts.</p>
-            </div>
+            <a class="research-category-link" href="/research-pages/machine-learning-brain-health/">
+              <div class="research-category-label">RESEARCH AREA 01</div>
+              <h2>Machine Learning for Brain Health Across the Lifespan</h2>
+              <div class="research-category-body">
+                <img src="research_area_01_lifespan_brain_red.svg" alt="Machine Learning for Brain Health Across the Lifespan" loading="lazy">
+                <p>We develop clinically grounded machine learning methods that capture variation in brain aging, neurodevelopment, neurodegeneration, and psychiatric disease across diverse populations and imaging cohorts.</p>
+              </div>
+            </a>
           </article>
 
           <article class="research-category-card">
-            <div class="research-category-label">Research Area 02</div>
-            <h2>AI Foundations &amp; Translational Imaging Science</h2>
-            <div class="research-category-body">
-              <img src="research_area_02_ai_foundations_blue.svg" alt="AI Foundations and Translational Imaging Science" loading="lazy">
-              <p>We build robust representation learning, multimodal fusion, segmentation, and scalable modeling frameworks that move methodological advances from computational imaging research into reproducible biomedical workflows.</p>
-            </div>
+            <a class="research-category-link" href="/research-pages/ai-foundations-translational-imaging/">
+              <div class="research-category-label">RESEARCH AREA 02</div>
+              <h2>AI Foundations &amp; Translational Imaging Science</h2>
+              <div class="research-category-body">
+                <img src="research_area_02_ai_foundations_blue.svg" alt="AI Foundations and Translational Imaging Science" loading="lazy">
+                <p>We build robust representation learning, multimodal fusion, segmentation, and scalable modeling frameworks that move methodological advances from computational imaging research into reproducible biomedical workflows.</p>
+              </div>
+            </a>
           </article>
 
           <article class="research-category-card">
-            <div class="research-category-label">Research Area 03</div>
-            <h2>Clinical Applications</h2>
-            <div class="research-category-body">
-              <img src="research_area_03_clinical_applications_green.svg" alt="Clinical Applications" loading="lazy">
-              <p>We translate imaging AI into applications for diagnosis, prognosis, treatment planning, and disease monitoring, with emphasis on personalized decision support and clinically meaningful model evaluation.</p>
-            </div>
+            <a class="research-category-link" href="/research-pages/clinical-applications/">
+              <div class="research-category-label">RESEARCH AREA 03</div>
+              <h2>Clinical Applications</h2>
+              <div class="research-category-body">
+                <img src="research_area_03_clinical_applications_green.svg" alt="Clinical Applications" loading="lazy">
+                <p>We translate imaging AI into applications for diagnosis, prognosis, treatment planning, and disease monitoring, with emphasis on personalized decision support and clinically meaningful model evaluation.</p>
+              </div>
+            </a>
           </article>
         </div>
     design:
