@@ -11,7 +11,35 @@ sections:
       text: |
         The MINDS Lab develops computational methods for medical imaging and data science.
         We focus on clinically useful machine learning, multimodal representation learning,
-        and robust modeling of heterogeneous biomedical data.
+        and robust modeling of heterogeneous biomedical data. We also focus on developing AI
+        tools that enable personalized diagnostics and improve disease understanding.
+    design:
+      columns: '1'
+
+  - block: markdown
+    content:
+      title: ''
+      subtitle: ''
+      text: |
+        <div class="research-category-grid">
+          <article class="research-category-card">
+            <div class="research-category-label">Research Area 01</div>
+            <h2>Machine Learning for Brain Health Across the Lifespan</h2>
+            <p>We develop clinically grounded machine learning methods that capture variation in brain aging, neurodevelopment, neurodegeneration, and psychiatric disease across diverse populations and imaging cohorts.</p>
+          </article>
+
+          <article class="research-category-card">
+            <div class="research-category-label">Research Area 02</div>
+            <h2>AI Foundations &amp; Translational Imaging Science</h2>
+            <p>We build robust representation learning, multimodal fusion, segmentation, and scalable modeling frameworks that move methodological advances from computational imaging research into reproducible biomedical workflows.</p>
+          </article>
+
+          <article class="research-category-card">
+            <div class="research-category-label">Research Area 03</div>
+            <h2>Clinical Applications</h2>
+            <p>We translate imaging AI into applications for diagnosis, prognosis, treatment planning, and disease monitoring, with emphasis on personalized decision support and clinically meaningful model evaluation.</p>
+          </article>
+        </div>
     design:
       columns: '1'
 
