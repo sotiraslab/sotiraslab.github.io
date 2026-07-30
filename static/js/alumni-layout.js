@@ -42,14 +42,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const leftColumn = document.createElement("section");
   leftColumn.className = "alumni-column";
-  leftColumn.innerHTML = "<h3>Post Docs, PhD, & Staff</h3><div class=\"alumni-list\"></div>";
+  leftColumn.innerHTML = "<div class=\"alumni-list\"></div>";
 
-  const mastersColumn = document.createElement("section");
-  mastersColumn.className = "alumni-column";
-  mastersColumn.innerHTML = "<h3>Masters and Summer Interns</h3><div class=\"alumni-list\"></div>";
+  const rightColumn = document.createElement("section");
+  rightColumn.className = "alumni-column";
+  rightColumn.innerHTML = "<div class=\"alumni-list\"></div>";
 
   const leftList = leftColumn.querySelector(".alumni-list");
-  const mastersList = mastersColumn.querySelector(".alumni-list");
+  const rightList = rightColumn.querySelector(".alumni-list");
 
   const leftBuckets = {
     postdoc: [],
@@ -57,7 +57,11 @@ document.addEventListener("DOMContentLoaded", function () {
     phd: []
   };
 
-  const rightCards = [];
+  const rightBuckets = {
+    masters: [],
+    summer: [],
+    other: []
+  };
 
   const placeholderImageSignatures = [
     "avatar_hue314b1d25bb69c0a75bd36abce089615_9739"
@@ -99,13 +103,18 @@ document.addEventListener("DOMContentLoaded", function () {
       hasAvatar: hasActualAvatar
     };
 
+    const nameNode = card.querySelector(".portrait-title h2");
+    const personName = nameNode ? nameNode.textContent.trim() : "";
+
+    if (personName === "Jin Yang") {
+      leftBuckets.phd.push(cardRecord);
+      return;
+    }
+
     if (role.indexOf("post doc") !== -1 || role.indexOf("postdoc") !== -1) {
       leftBuckets.postdoc.push(cardRecord);
       return;
     }
-
-    const nameNode = card.querySelector(".portrait-title h2");
-    const personName = nameNode ? nameNode.textContent.trim() : "";
 
     if (role.indexOf("staff") !== -1 || personName === "Deydeep Kothapalli") {
       leftBuckets.staff.push(cardRecord);
@@ -117,7 +126,17 @@ document.addEventListener("DOMContentLoaded", function () {
       return;
     }
 
-    rightCards.push(cardRecord);
+    if (role.indexOf("msc") !== -1 || role.indexOf("master") !== -1 || role.indexOf("graduate student") !== -1) {
+      rightBuckets.masters.push(cardRecord);
+      return;
+    }
+
+    if (role.indexOf("summer intern") !== -1) {
+      rightBuckets.summer.push(cardRecord);
+      return;
+    }
+
+    rightBuckets.other.push(cardRecord);
   });
 
   const sortPhotoFirst = function (cards) {
@@ -128,24 +147,31 @@ document.addEventListener("DOMContentLoaded", function () {
     return cards;
   };
 
-  sortPhotoFirst(leftBuckets.postdoc).forEach(function (entry) {
-    leftList.appendChild(entry.card);
-  });
+  const appendGroup = function (targetList, label, cards) {
+    if (!cards.length) {
+      return;
+    }
 
-  sortPhotoFirst(leftBuckets.staff).forEach(function (entry) {
-    leftList.appendChild(entry.card);
-  });
+    const subgroupTitle = document.createElement("h4");
+    subgroupTitle.className = "alumni-subgroup-title";
+    subgroupTitle.textContent = label;
+    targetList.appendChild(subgroupTitle);
 
-  sortPhotoFirst(leftBuckets.phd).forEach(function (entry) {
-    leftList.appendChild(entry.card);
-  });
+    cards.forEach(function (entry) {
+      targetList.appendChild(entry.card);
+    });
+  };
 
-  sortPhotoFirst(rightCards).forEach(function (entry) {
-    mastersList.appendChild(entry.card);
-  });
+  appendGroup(leftList, "Post Docs", sortPhotoFirst(leftBuckets.postdoc));
+  appendGroup(leftList, "Staff", sortPhotoFirst(leftBuckets.staff));
+  appendGroup(leftList, "PhD Students", sortPhotoFirst(leftBuckets.phd));
+
+  appendGroup(rightList, "Masters Students", sortPhotoFirst(rightBuckets.masters));
+  appendGroup(rightList, "Summer Interns", sortPhotoFirst(rightBuckets.summer));
+  appendGroup(rightList, "Other Alumni", sortPhotoFirst(rightBuckets.other));
 
   twoColumnWrapper.appendChild(leftColumn);
-  twoColumnWrapper.appendChild(mastersColumn);
+  twoColumnWrapper.appendChild(rightColumn);
 
   peopleSection.insertBefore(twoColumnWrapper, alumniHeaderContainer.nextElementSibling);
 });
