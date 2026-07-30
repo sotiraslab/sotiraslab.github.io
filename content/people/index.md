@@ -23,4 +23,11 @@ sections:
       show_interests: false
       show_role: true
       show_social: true
+  - block: markdown
+    content:
+      title: ""
+      text: |
+        <script src="/js/alumni-layout.js" defer></script>
+    design:
+      columns: "1"
 ---
