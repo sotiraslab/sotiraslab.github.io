@@ -37,10 +37,87 @@ sections:
             min-width: 520px;
             padding-right: 1.5rem;
           }
-          .hero-split-model model-viewer {
+          .hero-carousel {
+            position: relative;
+            width: 100%;
+          }
+          .hero-carousel-viewport {
+            overflow: hidden;
+            border-radius: 1.1rem;
+            box-shadow: none;
+            background: transparent;
+          }
+          .hero-carousel-track {
+            display: flex;
+            width: 100%;
+            transition: transform 320ms ease;
+            will-change: transform;
+          }
+          .hero-carousel-slide {
+            flex: 0 0 100%;
+            min-width: 100%;
+            position: relative;
+            display: grid;
+            place-items: center;
+            min-height: 700px;
+            padding: 1rem;
+          }
+          .hero-carousel-slide model-viewer,
+          .hero-carousel-slide img {
             width: 100%;
             height: 700px;
             background: transparent;
+            object-fit: contain;
+          }
+          .hero-carousel-slide img {
+            width: auto;
+            max-width: 100%;
+          }
+          .hero-carousel-controls {
+            position: absolute;
+            inset: 50% 0 auto 0;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+            padding: 0 0.5rem;
+            pointer-events: none;
+          }
+          .hero-carousel-button {
+            pointer-events: auto;
+            width: 2rem;
+            height: 2rem;
+            border: 0;
+            border-radius: 0;
+            background: transparent;
+            color: rgba(30, 43, 64, 0.72);
+            font-size: 1.75rem;
+            line-height: 1;
+            display: grid;
+            place-items: center;
+            cursor: pointer;
+          }
+          .hero-carousel-button:hover,
+          .hero-carousel-button:focus {
+            background: transparent;
+            color: #00205d;
+            outline: none;
+          }
+          .hero-carousel-dots {
+            display: flex;
+            justify-content: center;
+            gap: 0.55rem;
+            padding-top: 0.85rem;
+          }
+          .hero-carousel-dot {
+            width: 0.72rem;
+            height: 0.72rem;
+            border-radius: 999px;
+            border: 0;
+            background: rgba(0, 32, 93, 0.22);
+            cursor: pointer;
+          }
+          .hero-carousel-dot.is-active {
+            background: #00205d;
           }
           .hero-split-cta {
             margin-top: 3.2rem;
@@ -81,11 +158,65 @@ sections:
               min-width: 0;
               width: 100%;
             }
-            .hero-split-model model-viewer {
+            .hero-carousel-slide {
               height: 500px;
+              min-height: 500px;
+            }
+            .hero-carousel-slide model-viewer,
+            .hero-carousel-slide img {
+              height: 500px;
+            }
+            .hero-carousel-controls {
+              padding: 0 0.35rem;
+            }
+            .hero-carousel-button {
+              width: 1.9rem;
+              height: 1.9rem;
+              font-size: 1.45rem;
             }
           }
         </style>
+
+        <script>
+          document.addEventListener('DOMContentLoaded', function () {
+            const carousel = document.querySelector('.hero-carousel');
+            if (!carousel) {
+              return;
+            }
+
+            const track = carousel.querySelector('.hero-carousel-track');
+            const slides = Array.from(carousel.querySelectorAll('.hero-carousel-slide'));
+            const dots = Array.from(carousel.querySelectorAll('.hero-carousel-dot'));
+            const prevButton = carousel.querySelector('[data-carousel-prev]');
+            const nextButton = carousel.querySelector('[data-carousel-next]');
+            let currentIndex = 0;
+
+            const updateCarousel = function (index) {
+              currentIndex = (index + slides.length) % slides.length;
+              track.style.transform = 'translateX(' + (-100 * currentIndex) + '%)';
+              dots.forEach(function (dot, dotIndex) {
+                dot.classList.toggle('is-active', dotIndex === currentIndex);
+                dot.setAttribute('aria-selected', dotIndex === currentIndex ? 'true' : 'false');
+              });
+            };
+
+            prevButton.addEventListener('click', function () {
+              updateCarousel(currentIndex - 1);
+            });
+
+            nextButton.addEventListener('click', function () {
+              updateCarousel(currentIndex + 1);
+            });
+
+            dots.forEach(function (dot, index) {
+              dot.addEventListener('click', function () {
+                updateCarousel(index);
+              });
+            });
+
+            updateCarousel(0);
+          });
+        </script>
 
         <div class="hero-split">
           <div class="hero-split-text">
@@ -93,7 +224,26 @@ sections:
             <p class="hero-split-cta"><a href="./people/" class="btn btn-primary px-3 py-3">Meet the team →</a></p>
           </div>
           <div class="hero-split-model">
-            <model-viewer src="/uploads/brain_anat.glb" alt="3D brain anatomy model" camera-controls auto-rotate ar></model-viewer>
+            <div class="hero-carousel" aria-label="Hero media carousel">
+              <div class="hero-carousel-viewport">
+                <div class="hero-carousel-track">
+                  <section class="hero-carousel-slide" aria-label="3D brain anatomy model slide">
+                    <model-viewer src="/uploads/brain_anat.glb" alt="3D brain anatomy model" camera-controls auto-rotate ar></model-viewer>
+                  </section>
+                  <section class="hero-carousel-slide" aria-label="Brain processing illustration slide">
+                    <img src="/uploads/puzz_temp_clean.png" alt="Brain processing illustration" />
+                  </section>
+                </div>
+              </div>
+              <div class="hero-carousel-controls" aria-hidden="false">
+                <button type="button" class="hero-carousel-button" data-carousel-prev aria-label="Previous slide">‹</button>
+                <button type="button" class="hero-carousel-button" data-carousel-next aria-label="Next slide">›</button>
+              </div>
+              <div class="hero-carousel-dots" role="tablist" aria-label="Hero carousel slides">
+                <button type="button" class="hero-carousel-dot is-active" aria-label="Show 3D brain model" aria-selected="true"></button>
+                <button type="button" class="hero-carousel-dot" aria-label="Show image slide" aria-selected="false"></button>
+              </div>
+            </div>
           </div>
         </div>
   
