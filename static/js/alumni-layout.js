@@ -52,12 +52,12 @@ document.addEventListener("DOMContentLoaded", function () {
   const rightList = rightColumn.querySelector(".alumni-list");
 
   const leftBuckets = {
-    postdoc: [],
-    staff: [],
     phd: []
   };
 
   const rightBuckets = {
+    postdoc: [],
+    staff: [],
     masters: [],
     summer: [],
     other: []
@@ -112,12 +112,12 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     if (role.indexOf("post doc") !== -1 || role.indexOf("postdoc") !== -1) {
-      leftBuckets.postdoc.push(cardRecord);
+      rightBuckets.postdoc.push(cardRecord);
       return;
     }
 
     if (role.indexOf("staff") !== -1 || personName === "Deydeep Kothapalli") {
-      leftBuckets.staff.push(cardRecord);
+      rightBuckets.staff.push(cardRecord);
       return;
     }
 
@@ -162,10 +162,10 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   };
 
-  appendGroup(leftList, "Post Docs", sortPhotoFirst(leftBuckets.postdoc));
-  appendGroup(leftList, "Staff", sortPhotoFirst(leftBuckets.staff));
   appendGroup(leftList, "PhD Students", sortPhotoFirst(leftBuckets.phd));
 
+  appendGroup(rightList, "Post Docs", sortPhotoFirst(rightBuckets.postdoc));
+  appendGroup(rightList, "Staff", sortPhotoFirst(rightBuckets.staff));
   appendGroup(rightList, "Masters Students", sortPhotoFirst(rightBuckets.masters));
   appendGroup(rightList, "Summer Interns", sortPhotoFirst(rightBuckets.summer));
   appendGroup(rightList, "Other Alumni", sortPhotoFirst(rightBuckets.other));
