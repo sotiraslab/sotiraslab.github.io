@@ -230,6 +230,9 @@ sections:
                   <section class="hero-carousel-slide" aria-label="3D brain anatomy model slide">
                     <model-viewer src="/uploads/brain_anat.glb" alt="3D brain anatomy model" camera-controls auto-rotate ar></model-viewer>
                   </section>
+                  <section class="hero-carousel-slide" aria-label="Cover image slide">
+                    <img src="/uploads/cover_no_background.png" alt="Cover image" />
+                  </section>
                   <section class="hero-carousel-slide" aria-label="Brain processing illustration slide">
                     <img src="/uploads/puzz_temp_clean.png" alt="Brain processing illustration" />
                   </section>
@@ -241,6 +244,7 @@ sections:
               </div>
               <div class="hero-carousel-dots" role="tablist" aria-label="Hero carousel slides">
                 <button type="button" class="hero-carousel-dot is-active" aria-label="Show 3D brain model" aria-selected="true"></button>
+                <button type="button" class="hero-carousel-dot" aria-label="Show cover image" aria-selected="false"></button>
                 <button type="button" class="hero-carousel-dot" aria-label="Show image slide" aria-selected="false"></button>
               </div>
             </div>
