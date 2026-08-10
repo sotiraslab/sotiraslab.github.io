@@ -423,3 +423,145 @@ textarea {
     gap: 1.5rem;
   }
 }
+
+/* Full-site dark mode overrides for custom content and widgets. */
+body.dark {
+  background: #0c1116;
+  color: #e6edf4;
+}
+
+body.dark .home-section,
+body.dark .article-container,
+body.dark .universal-wrapper,
+body.dark .docs-toc,
+body.dark .docs-article-container,
+body.dark .search-results {
+  background-color: #0f151c;
+  color: #e6edf4;
+}
+
+body.dark #navbar-main,
+body.dark .navbar {
+  background: rgba(10, 14, 20, 0.92) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+}
+
+body.dark .navbar-brand,
+body.dark #navbar-main .navbar-nav .nav-link,
+body.dark a,
+body.dark .section-heading h1,
+body.dark .section-subheading,
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark h4,
+body.dark h5,
+body.dark h6 {
+  color: #e6edf4;
+}
+
+body.dark p,
+body.dark li,
+body.dark .article-metadata,
+body.dark .article-style,
+body.dark .portrait-title h3 {
+  color: #b7c6d8;
+}
+
+body.dark a:hover,
+body.dark a:focus,
+body.dark #navbar-main .navbar-nav .nav-link:hover,
+body.dark #navbar-main .navbar-nav .nav-link:focus,
+body.dark #navbar-main .navbar-nav .nav-link.active,
+body.dark #navbar-main .navbar-nav .nav-item.active .nav-link {
+  color: #8fc0ff !important;
+}
+
+body.dark .card,
+body.dark .card-simple,
+body.dark .stream-item,
+body.dark .media.stream-item,
+body.dark .search-hit,
+body.dark .alert,
+body.dark .research-category-card,
+body.dark .research-feed .summary-link img {
+  background: #141c25;
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: none;
+}
+
+body.dark .research-category-label {
+  color: #8fc0ff;
+}
+
+body.dark .research-category-card h2,
+body.dark .research-feed .section-subheading.article-title a,
+body.dark #section-people .alumni-column h3,
+body.dark #section-people .alumni-subgroup-title,
+body.dark #section-people .alumni-person .portrait-title h2 {
+  color: #e6edf4;
+}
+
+body.dark .research-category-body p,
+body.dark .research-feed .summary-link p,
+body.dark #section-people .alumni-person .portrait-title h3 {
+  color: #b7c6d8;
+}
+
+body.dark .research-category-card:hover,
+body.dark .research-category-card:focus-within {
+  background: linear-gradient(180deg, #172331 0%, #131e2a 100%);
+  border-color: rgba(143, 192, 255, 0.35);
+  box-shadow: 0 0 0 1px rgba(143, 192, 255, 0.18);
+}
+
+body.dark .research-feed .card-simple,
+body.dark #section-people .alumni-person {
+  border-color: rgba(255, 255, 255, 0.11);
+}
+
+body.dark table,
+body.dark .table {
+  color: #dce7f3;
+}
+
+body.dark .table td,
+body.dark .table th,
+body.dark .table thead th {
+  border-color: rgba(255, 255, 255, 0.14);
+}
+
+body.dark blockquote {
+  border-left: 3px solid rgba(143, 192, 255, 0.45);
+  background: #121a23;
+  color: #dce7f3;
+}
+
+body.dark input,
+body.dark textarea,
+body.dark select,
+body.dark .form-control {
+  background: #121b24;
+  color: #e6edf4;
+  border-color: rgba(255, 255, 255, 0.16);
+}
+
+body.dark input::placeholder,
+body.dark textarea::placeholder {
+  color: #8fa2ba;
+}
+
+body.dark .btn,
+body.dark .btn-primary {
+  border-color: rgba(143, 192, 255, 0.5);
+}
+
+body.dark hr {
+  border-top-color: rgba(255, 255, 255, 0.15);
+}
+
+body.dark footer.site-footer {
+  background: #0a0f14;
+  color: #9fb0c5;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
