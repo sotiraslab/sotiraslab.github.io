@@ -274,6 +274,12 @@ textarea {
   flex: 0 0 auto;
 }
 
+body.dark .navbar-brand::after {
+  background-image: url('/uploads/pennmed_logo_dark_matched.png');
+  background-size: contain;
+  background-position: center;
+}
+
 #navbar-main .navbar-brand:hover,
 #navbar-main .navbar-brand:focus,
 #navbar-main .navbar-nav .nav-link:hover,
@@ -554,6 +560,35 @@ body.dark textarea::placeholder {
 body.dark .btn,
 body.dark .btn-primary {
   border-color: rgba(143, 192, 255, 0.5);
+}
+
+body.dark .hero-carousel-button,
+body.dark .carousel-control-prev-icon,
+body.dark .carousel-control-next-icon {
+  color: rgba(205, 214, 225, 0.9) !important;
+}
+
+body.dark .hero-carousel-button:hover,
+body.dark .hero-carousel-button:focus {
+  color: #e6edf4 !important;
+}
+
+body.dark .hero-carousel-dot,
+body.dark .carousel-indicators li,
+body.dark .carousel-indicators [data-bs-target],
+body.dark .carousel-indicators [data-target] {
+  background: rgba(170, 178, 190, 0.7) !important;
+}
+
+body.dark .hero-carousel-dot.is-active,
+body.dark .carousel-indicators .active {
+  background: #d9e0e8 !important;
+}
+
+body.dark .hero-split-cta .btn,
+body.dark .hero-split-cta .btn:hover,
+body.dark .hero-split-cta .btn:focus {
+  color: #1b2836 !important;
 }
 
 body.dark hr {
